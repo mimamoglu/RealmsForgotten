@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\RF_Core\bin\Win64_Shipping_Client\RealmsForgotten.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A021D5B-3DC5-49A0-9F16-4520730BCB76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RealmsForgotten</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <RootNamespace>RealmsForgotten</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="TaleWorlds.CampaignSystem" />
+    <Reference Include="TaleWorlds.Core" />
+    <Reference Include="TaleWorlds.Engine" />
+    <Reference Include="TaleWorlds.Library" />
+    <Reference Include="TaleWorlds.Localization" />
+    <Reference Include="TaleWorlds.ModuleManager" />
+    <Reference Include="TaleWorlds.MountAndBlade" />
+    <Reference Include="TaleWorlds.ObjectSystem" />
+    <Reference Include="TaleWorlds.SaveSystem" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Patches.cs" />
+    <Compile Include="RFCampaignManager.cs" />
+    <Compile Include="RFCharacterCreationContent.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

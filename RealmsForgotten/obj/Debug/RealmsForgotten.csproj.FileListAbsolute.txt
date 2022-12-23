@@ -1,0 +1,7 @@
+C:\Users\newth\Desktop\RealmsForgotten\obj\Debug\RealmsForgotten.csproj.AssemblyReference.cache
+C:\Users\newth\Desktop\RealmsForgotten\obj\Debug\RealmsForgotten.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\RF_Core\bin\Win64_Shipping_Client\RealmsForgotten.dll
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\RF_Core\bin\Win64_Shipping_Client\RealmsForgotten.pdb
+C:\Users\newth\Desktop\RealmsForgotten\obj\Debug\RealmsForgotten.csproj.CopyComplete
+C:\Users\newth\Desktop\RealmsForgotten\obj\Debug\RealmsForgotten.dll
+C:\Users\newth\Desktop\RealmsForgotten\obj\Debug\RealmsForgotten.pdb
